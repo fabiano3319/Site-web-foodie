@@ -251,8 +251,13 @@ nav ul li a {
     display: flex;
     align-items: center;
 }
-#section_four .card_img img {
-    /* linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)), */
+#section_four .card_img {
+    background-image: 
+        linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)),
+        url('./img/img_section_four.png');
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 974px;
 }
 #section_four .card_body {
     display: flex;
