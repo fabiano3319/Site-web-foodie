@@ -208,11 +208,15 @@ nav ul li a {
 #section_three .container .card_container .card {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    margin-bottom: 50px;
+    align-items:flex-start;
+    margin-bottom: 40px;
+    
 }
 #section_three .container .card_container .card .card_img {
     margin-right: 20px;
+}
+#section_three .container .card_container .card .card_text {
+    text-align: left;
 }
 #section_three .container .card_container .card .card_text h3 {
     font-size: 36px;
@@ -223,15 +227,17 @@ nav ul li a {
 #section_three .container .card_container .card_four {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items:flex-start;
     margin-left: 20px;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 #section_three .container .card_container .card_four .card_img {
     margin-right: 20px;
+    margin-top: 20px;
 }
 #section_three .container .card_container .card_four .card_text {
     margin-left: 15px;
+    text-align: left;
 }
 #section_three .container .card_container .card_four .card_text h3 {
     font-size: 36px;
@@ -240,3 +246,39 @@ nav ul li a {
     font-size: 16px;
 }
 
+ /*Section four*/
+#section_four .container {
+    display: flex;
+    align-items: center;
+}
+#section_four .card_img img {
+    /* linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)), */
+}
+#section_four .card_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#section_four .card_body .card_title {
+    font-family: 'Grand Hotel', cursive;
+    font-weight: normal;
+    font-size: 64px;
+    color: #FF4C55;
+}
+#section_four .card_body .card_desc {
+    font-size: 20px;
+    color:#3d3d3d;
+    margin-bottom: 20px;
+}
+#section_four .card_body button {
+    background-color: #FF4C55;
+    border-radius: 20px;
+    width: 210px;
+    color: white;
+    border: none;
+    padding: 12px 0;
+    white-space: nowrap;
+    font-weight: bold;
+}
