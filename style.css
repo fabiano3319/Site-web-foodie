@@ -178,11 +178,14 @@ nav ul li a {
 /*Section three*/
 #section_three {
     background-color: #F2E7CC;
+    border: 1px solid transparent;
 }
 #section_three .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 72px;
+    margin-bottom: 82px;
 }
 #section_three .container .card_title {
     font-family: 'Grand Hotel', cursive;
@@ -203,14 +206,13 @@ nav ul li a {
 #section_three .container .card_container {
     display: flex;
     gap: 100px;
-    margin-bottom: 100px;
 }
 #section_three .container .card_container .card {
     display: flex;
     flex-direction: row;
     align-items:flex-start;
     margin-bottom: 40px;
-    
+
 }
 #section_three .container .card_container .card .card_img {
     margin-right: 20px;
@@ -248,15 +250,17 @@ nav ul li a {
 
  /*Section four*/
 #section_four .container {
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 #section_four .card_img {
     background-image: 
         linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)),
         url('./img/img_section_four.png');
     background-repeat: no-repeat;
-    width: 90%;
+    background-position: center;
+    object-fit: cover;
+    width: 706px;
     height: 974px;
 }
 #section_four .card_body {
@@ -269,7 +273,7 @@ nav ul li a {
 #section_four .card_body .card_title {
     font-family: 'Grand Hotel', cursive;
     font-weight: normal;
-    font-size: 64px;
+    font-size: 72px;
     color: #FF4C55;
 }
 #section_four .card_body .card_desc {
@@ -286,4 +290,60 @@ nav ul li a {
     padding: 12px 0;
     white-space: nowrap;
     font-weight: bold;
+}
+
+/* Section five */
+#section_five {
+    background-color: #F2E7CC;
+    border: 1px solid transparent;
+}
+#section_five .container {
+    margin-top: 72px;
+    margin-bottom: 82px;
+}
+#section_five .card_title {
+    font-family: 'Grand Hotel', cursive;
+    font-weight: normal;
+    color: #eb4d55;
+}
+#section_five p {
+    color: #3d3d3d;
+}
+#section_five h2,.card_desc_one {
+    text-align: center;
+}
+ #section_five h2 {
+    font-size: 72px;
+}
+#section_five .card_desc_one {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+#section_five .card_container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+#section_five .card {
+    background-color: #FCF5E4;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 50px 20px 20px 20px;
+}
+#section_five .card_container h3 {
+    font-size: 36px;
+    margin-top: 40px;
+}
+#section_five .card_container p {
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+#section_five button {
+    background-color: #FF4C55;
+    border-radius: 20px;
+    width: 210px;
+    color: white;
+    border: none;
+    padding: 12px 0;
 }
