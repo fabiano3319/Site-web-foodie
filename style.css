@@ -386,3 +386,52 @@ nav ul li a {
 }
 
 /* Section seven */
+#section_seven {
+    background-color: #FCF5E4;
+    border: 1px solid transparent;
+}
+#section_seven .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 72px;
+    margin-bottom: 82px;
+}
+#section_seven .container h1 {
+    font-family: 'Grand Hotel', cursive;
+    font-weight: normal;
+    color: #eb4d55;
+    font-size: 80px;
+}
+#section_seven .container p{
+    text-align: center;
+    font-size: 20px;
+    color: #3d3d3d;
+    margin: 10px 0 40px 0;
+}
+#section_seven form {
+    border-radius: 50px;
+    width: 500px;
+    background-color: white;
+    border: none;
+    display: flex;
+}
+#section_seven form input {
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    padding-left: 20px;
+}
+#section_seven button {
+    text-transform: uppercase;
+    background-color: #FF4C55;
+    border-radius: 50px;
+    width: 141px;
+    color: white;
+    border: none;
+    padding: 12px 0;
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 170px;
+}
