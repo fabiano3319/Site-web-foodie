@@ -7,6 +7,10 @@
     src: url('fonts/Lato-Regular.ttf') format('truetype');
     font-weight: 400;
 }
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-Regular.ttf') format('truetype');
+}
 * {
     margin: 0;
     padding: 0;
@@ -462,6 +466,10 @@ footer .grid-container .col2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 50px;
+}
+footer .grid-container .col2 p {
+    font-family: 'Nunito';
+    font-weight: normal;
 }
 footer h5 {
     font-size: 24px;
