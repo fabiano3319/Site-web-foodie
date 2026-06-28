@@ -435,3 +435,42 @@ nav ul li a {
     font-size: 16px;
     margin-left: 170px;
 }
+
+/* footer */
+footer {
+    background-color: #262626;
+    color: white;
+    border: 1px solid transparent;
+}
+footer .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0px;
+    border: 1px solid blue;
+    margin-top: 100px;
+}
+footer .grid-container .col1 {
+    border: 1px solid white;
+    width: 436px;
+    height: 200px;
+    border: 1px solid red;
+}
+footer h4 {
+    font-size: 36px;
+}
+footer .grid-container .col2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+}
+footer h5 {
+    font-size: 24px;
+}
+footer .card_title {
+    font-family: 'Grand Hotel', cursive;
+    font-weight: normal;
+}
+footer .grid-container .col {
+    border: 1px solid white;
+    height: 200px;
+}
